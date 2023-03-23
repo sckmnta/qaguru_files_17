@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03172522-2ab5-4d9a-88dd-88e8aab38ab7" name="Changes" comment="Repository created">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideParseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideUploadFilesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/expectedfiles/qaguru.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideFilesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideFilesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mnta/sck/WorkingWithFilesHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mnta/sck/WorkingWithFilesHomework.java" afterDir="false" />
+    <list default="true" id="03172522-2ab5-4d9a-88dd-88e8aab38ab7" name="Changes" comment="Lesson added">
+      <change beforePath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideParseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678377725518</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lesson added">
+      <created>1679579691507</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679579691507</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,7 +266,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Repository created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repository created" />
+    <MESSAGE value="Lesson added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/quaguru_files_17$WorkingWithFilesHomework.ic" NAME="WorkingWithFilesHomework Coverage Results" MODIFIED="1678816969927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -64,7 +64,7 @@ public class SelenideParseTest {
     }
     @Test
     void filesEqualsTest() throws Exception {
-        Selenide.open("https://github.com/qa-guru/qa_guru_18_files/blob/master/src/test/resources/qaguru.csv");
+        Selenide.open("https://github.com/sckmnta/qaguru_files_17/blob/master/src/test/resources/expectedfiles/qaguru.csv");
         File download = $("#raw-url").download();
         try (InputStream isExpected = cl.getResourceAsStream("expectedfiles/qaguru.csv");
         InputStream downloaded = new FileInputStream(download)) {
