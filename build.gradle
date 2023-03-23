@@ -10,20 +10,18 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1',
-            'junit:junit:4.13.1',
-    'com.codeborne:selenide:6.11.0',
-    'org.assertj:assertj-core:3.23.1',
-    'com.codeborne:pdf-test:1.5.0',
-    'com.codeborne:xls-test:1.4.3',
-    'com.opencsv:opencsv:5.7.1',
-    'com.google.code.gson:gson:2.10',
-    'org.testng:testng:7.1.0',
-    'org.junit.jupiter:junit-jupiter:5.9.1',
-    'org.slf4j:slf4j-simple:2.0.6'
+    testImplementation "org.junit.jupiter:junit-jupiter:5.9.2"
+    testImplementation "com.codeborne:selenide:6.12.3"
+    testImplementation "com.codeborne:pdf-test:1.5.0"
+    testImplementation "com.codeborne:xls-test:1.4.3"
+    testImplementation "com.opencsv:opencsv:5.7.1"
+    testImplementation "com.google.code.gson:gson:2.10.1"
 }
 
-tasks.withType(JavaCompile) {
+compileJava {
+    options.encoding = 'UTF-8'
+}
+compileTestJava {
     options.encoding = 'UTF-8'
 }
 
