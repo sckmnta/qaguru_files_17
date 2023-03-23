@@ -3,6 +3,7 @@ package mnta.sck;
 import com.codeborne.pdftest.PDF;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.xlstest.XLS;
+import com.google.gson.Gson;
 import com.opencsv.CSVReader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -13,6 +14,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 import static com.codeborne.selenide.Selenide.$;
 
@@ -74,6 +77,31 @@ public class SelenideParseTest {
             );
         }
 
+    }
+    @Test
+    void zipTest() throws Exception {
+        try (InputStream is = cl.getResourceAsStream("archive.zip");
+             ZipInputStream zs = new ZipInputStream(is)) {
+            ZipEntry entry;
+            while ((entry = zs.getNextEntry()) != null) {
+                Assertions.assertTrue(entry.getName().contains("1.csv"));
+            }
+
+
+        }
+    }
+    @Test
+    void jsonLearningTest() throws Exception {
+        Gson gson = new Gson();
+        try (InputStream is = cl.getResourceAsStream("human.json");
+             InputStreamReader isr = new InputStreamReader(is)) {
+            Human human = gson.fromJson(isr, Human.class);
+
+            Assertions.assertTrue(human.isLearning);
+            Assertions.assertEquals(34, human.age);
+
+
+        }
     }
 
 

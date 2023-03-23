@@ -1,0 +1,11 @@
+{
+  "name": "Niki",
+  "age": 34,
+  "isLearning": true,
+  "hobbies": ["music", "snowboarding", "bmx"],
+  "id": {
+    "number": 7232,
+    "issueDate": "24 FEB 2022"
+  }
+
+}
