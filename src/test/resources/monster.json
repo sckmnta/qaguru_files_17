@@ -1,0 +1,17 @@
+{
+  "monsterName": "Black Dragon",
+  "level": 7,
+  "attack": 25,
+  "defence": 25,
+  "health": 300,
+  "speed": 15,
+  "specialAbilities": [
+    "immune to all spells",
+    "hates Titans"
+  ],
+  "originOfMon": {
+    "caste": "Dungeon",
+    "building": "Dragon cave",
+    "upgraded": true
+  }
+}
