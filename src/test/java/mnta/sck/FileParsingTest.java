@@ -1,12 +1,10 @@
 package mnta.sck;
-
 import com.codeborne.pdftest.PDF;
 import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
@@ -50,7 +48,7 @@ public class FileParsingTest {
                     CSVReader csv = new CSVReader(new InputStreamReader(zis));
                     List<String[]> csvRow = csv.readAll();
                     Assertions.assertTrue(entry.getName().contains("1.csv"));
-                    Assertions.assertEquals(new String[]{"Teacher", "Lesson", "Tuchs", "Vasenkov", "Eroshenko"}, csvRow.get(1));
+                    Assertions.assertEquals(new String[]{"Teacher", "Lesson", "Tuchs", "JUnit 5", "Vasenkov", "PageObjects", "Eroshenko", "Allure"}, csvRow.get(1));
 
                 }
             }

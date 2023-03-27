@@ -1,5 +1,4 @@
 package mnta.sck;
-
 import java.util.List;
 
 public class Human {
