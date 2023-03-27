@@ -52,25 +52,27 @@ public class SelenideParseTest {
 
 
     }
+
     @Test
     void csvParseTest() throws Exception {
         try (InputStream is = cl.getResourceAsStream("expectedfiles/qaguru.csv");
              InputStreamReader isr = new InputStreamReader(is)) {
             CSVReader csvReader = new CSVReader(isr);
             List<String[]> content = csvReader.readAll();
-            Assertions.assertArrayEquals(new String[] {"Tuchs", "JUnit 5"}, content.get(1));
+            Assertions.assertArrayEquals(new String[]{"Tuchs", "JUnit 5"}, content.get(1));
 
 
         }
 
 
     }
+
     @Test
     void filesEqualsTest() throws Exception {
         Selenide.open("https://github.com/sckmnta/qaguru_files_17/blob/master/src/test/resources/expectedfiles/qaguru.csv");
         File download = $("#raw-url").download();
         try (InputStream isExpected = cl.getResourceAsStream("expectedfiles/qaguru.csv");
-        InputStream downloaded = new FileInputStream(download)) {
+             InputStream downloaded = new FileInputStream(download)) {
             Assertions.assertEquals(
                     new String(isExpected.readAllBytes(), StandardCharsets.UTF_8),
                     new String(downloaded.readAllBytes(), StandardCharsets.UTF_8)
@@ -78,6 +80,7 @@ public class SelenideParseTest {
         }
 
     }
+
     @Test
     void zipTest() throws Exception {
         try (InputStream is = cl.getResourceAsStream("archive.zip");
@@ -90,6 +93,7 @@ public class SelenideParseTest {
 
         }
     }
+
     @Test
     void jsonLearningTest() throws Exception {
         Gson gson = new Gson();
@@ -103,7 +107,6 @@ public class SelenideParseTest {
 
         }
     }
-
 
 
 }

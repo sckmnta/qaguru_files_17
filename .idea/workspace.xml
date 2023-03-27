@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03172522-2ab5-4d9a-88dd-88e8aab38ab7" name="Changes" comment="Lesson added">
-      <change beforePath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideParseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mnta/sck/SelenideParseTest.java" afterDir="false" />
+    <list default="true" id="03172522-2ab5-4d9a-88dd-88e8aab38ab7" name="Changes" comment="Homework done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,8 +73,8 @@
       <recent name="mnta.sck" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SelenideParseTest.filesEqualsTest">
-    <configuration name="SelenideParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FileParsingTest.zippedXlsParseTest">
+    <configuration name="FileParsingTest.zippedCsvParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -87,7 +87,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mnta.sck.SelenideParseTest&quot;" />
+            <option value="&quot;mnta.sck.FileParsingTest.zippedCsvParseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -97,7 +97,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideParseTest.csvParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileParsingTest.zippedPdfParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -110,7 +110,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mnta.sck.SelenideParseTest.csvParseTest&quot;" />
+            <option value="&quot;mnta.sck.FileParsingTest.zippedPdfParseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -120,7 +120,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideParseTest.filesEqualsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FileParsingTest.zippedXlsParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -133,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mnta.sck.SelenideParseTest.filesEqualsTest&quot;" />
+            <option value="&quot;mnta.sck.FileParsingTest.zippedXlsParseTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideParseTest.xlsParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SelenideParseTest.jsonLearningTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -156,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;mnta.sck.SelenideParseTest.xlsParseTest&quot;" />
+            <option value="&quot;mnta.sck.SelenideParseTest.jsonLearningTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -166,36 +166,34 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="WorkingWithFilesHomework" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="quaguru_files_17 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;mnta.sck.WorkingWithFilesHomework&quot;" />
+            <option value="dependencies" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SelenideParseTest.filesEqualsTest" />
-        <item itemvalue="Gradle.SelenideParseTest.csvParseTest" />
-        <item itemvalue="Gradle.SelenideParseTest.xlsParseTest" />
-        <item itemvalue="Gradle.SelenideParseTest" />
-        <item itemvalue="Gradle.WorkingWithFilesHomework" />
+        <item itemvalue="Gradle.FileParsingTest.zippedXlsParseTest" />
+        <item itemvalue="Gradle.FileParsingTest.zippedCsvParseTest" />
+        <item itemvalue="Gradle.FileParsingTest.zippedPdfParseTest" />
+        <item itemvalue="Gradle.quaguru_files_17 [dependencies]" />
+        <item itemvalue="Gradle.SelenideParseTest.jsonLearningTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +248,49 @@
       <option name="project" value="LOCAL" />
       <updated>1679579691507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lesson added">
+      <created>1679580048385</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679580048385</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lesson added">
+      <created>1679580371918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679580371918</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lesson added">
+      <created>1679580449723</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679580449723</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Lesson added">
+      <created>1679580520948</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679580520948</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lesson added">
+      <created>1679594023759</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679594023759</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Homework done">
+      <created>1679921209122</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679921209122</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -267,7 +307,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Repository created" />
     <MESSAGE value="Lesson added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson added" />
+    <MESSAGE value="Homework done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/quaguru_files_17$WorkingWithFilesHomework.ic" NAME="WorkingWithFilesHomework Coverage Results" MODIFIED="1678816969927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
